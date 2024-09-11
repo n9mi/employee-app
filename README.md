@@ -21,25 +21,25 @@ git clone https://github.com/n9mi/employee-app.git
 
 2. Set the .env by change .env.example to .env and set required configurations.
 
-3. Generate the key
-```
-php artisan key:generate
-```
-
-4. Install php dependencies with composer
+3. Install php dependencies with composer
 ```
 composer install
 ```
 
-5. Install javascript dependencies
+4. Install javascript dependencies
 ```
 npm install
 npm run build
 ```
 
+5. Generate the key
+```
+php artisan key:generate
+```
+
 6. Run the migration and seed the database (please ensure your .env configurations already been set)
 ```
-php artisan migrate
+php artisan migrate:fresh
 php artisan db:seed
 ```
 
