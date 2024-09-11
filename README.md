@@ -39,7 +39,7 @@ php artisan key:generate
 
 6. Run the migration and seed the database (please ensure your .env configurations already been set)
 ```
-php artisan migrate
+php artisan migrate:fresh
 php artisan db:seed
 ```
 
