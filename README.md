@@ -9,7 +9,7 @@ Simple web for creating and filtering employee
 - [Select2](https://select2.org/)
 - [Date Range Picker](https://www.daterangepicker.com/)
 
-## Screenshots
+## Screenshots 
 ![image](https://github.com/user-attachments/assets/356f3450-b52f-4bc6-a113-de6139339d87)
 ![image](https://github.com/user-attachments/assets/f64a16ba-d445-4e11-bff3-3a3342fcef2a)
 
