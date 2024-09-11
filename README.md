@@ -7,6 +7,7 @@ Simple web for creating and filtering employee
 - [jQuery](https://jquery.com/)
 - [Datatables](https://datatables.net/)
 - [Select2](https://select2.org/)
+- [Date Range Picker](https://www.daterangepicker.com/)
 
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/356f3450-b52f-4bc6-a113-de6139339d87)
