@@ -20,7 +20,7 @@ class EmployeeController extends Controller
         $this->departementService = $departementService;
     }
 
-    public function index()
+    public function index(Request $request)
     {
         return view('pages.employee.index', [
             'employees' => $this->employeeService->findAll(),
@@ -41,6 +41,6 @@ class EmployeeController extends Controller
             return redirect()->back()->withErrors($result['errors']);
         }
 
-        return redirect()->route('employee')->with('success', $result['success']);
+        return redirect()->route('employee')->with('success_msg', $result['success']);
     }
 }

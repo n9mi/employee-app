@@ -32,9 +32,9 @@
             class="bg-indigo-800 hover:bg-indigo-400 h-full mt-2 p-2 rounded text-white font-bold w-full md:w-auto">Reset</button>
     </div>
 
-    @session('message')
-        {{ session('message') }}
-    @endsession
+    @if ( session('success_msg') )
+
+    @endif
 
     <div class="mx-4 my-8 md:m-8 text-sm md:text-base bg-white p-2 md:p-4 rounded relative overflow-x-auto">
         <table id="employee__table" class="display">
@@ -110,6 +110,15 @@
         }
 
         $(document).ready(function() {
+            @if (\Session::has('success_msg'))
+                Toastify({
+                    text: "{!! \Session::get('success_msg') !!}",
+                    className: "info",
+                    duration: 3000,
+                    close: true
+                }).showToast();
+            @endif
+
             const table = new DataTable('#employee__table', {
                 responsive: true
             });
