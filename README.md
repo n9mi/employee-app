@@ -2,7 +2,15 @@
 Simple web for creating and filtering employee
 
 ## Stack used
-- Laravel
+- [Laravel](https://laravel.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [jQuery](https://jquery.com/)
+- [Datatables](https://datatables.net/)
+- [Select2](https://select2.org/)
+
+## Screenshots
+![image](https://github.com/user-attachments/assets/356f3450-b52f-4bc6-a113-de6139339d87)
+![image](https://github.com/user-attachments/assets/f64a16ba-d445-4e11-bff3-3a3342fcef2a)
 
 ## How to run
 1. Clone the app  
